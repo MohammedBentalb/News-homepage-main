@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --soft-orange: hsl(35, 77%, 62%);
+  --soft-red: hsl(5, 85%, 63%);
+  --ofWhite: hsl(36, 100%, 99%);
+  --grayish-blue: hsl(233, 8%, 79%);
+  --dark-grayish-blue: hsl(236, 13%, 42%);
+  --dark-blue: hsl(240, 100%, 5%);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+  background-color: var(--ofWhite);
+}
+@layer utilities {
+  .max-content {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+
+  /* // navbar classes */
+
+  .links-desk {
+    @apply flex gap-8 translate-x-0;
+  }
+  .links-mobile {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.514),
+      44%,
+      rgb(255, 255, 255) 40%
+    );
+    @apply absolute top-0 left-0 flex flex-col items-start justify-start gap-6 h-[100vh] w-[100%] pt-[70px] z-20 pl-[40%];
+  }
+
+  /*   // Grid */
+  .sec-grid {
+    display: grid;
+    grid-template-areas:
+      'one'
+      'two'
+      'three'
+      'four'
+      'five';
+  }
+
+  @media (min-width: 920px) {
+    .sec-grid {
+      grid-template-areas:
+        'one one two'
+        'three four five';
+    }
+  }
+
+  /*   // mainView */
+  .big-heading {
+    font-size: clamp(1.5rem, 3rem, 4rem);
+  }
+
+  /*   // list*/
+
+  .list-li {
+    @apply flex flex-col gap-3 border-b-2 border-ofWhite last:border-b-0 max-lg:pb-3;
+  }
+  .list-li p {
+    @apply text-grayish-blue;
+  }
+  .area-main {
+    grid-area: one;
+  }
+  .area-list {
+    grid-area: two;
+  }
+  .area-card1 {
+    grid-area: three;
+  }
+  .area-card2 {
+    grid-area: four;
+  }
+  .area-card3 {
+    grid-area: five;
+  }
+}
