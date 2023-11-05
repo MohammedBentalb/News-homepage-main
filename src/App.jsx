@@ -4,8 +4,8 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <>
-      <main className="max-content flex flex-col justify-center px-3 pb-4">
-       <Navbar /> 
+      <main className="max-content relative flex flex-col justify-center overflow-x-hidden px-3 pb-4">
+        <Navbar />
         <Grid />
       </main>
       <h1 className="my-10 text-center text-[14px] max-sm:text-[11px]">
