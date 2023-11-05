@@ -21,27 +21,27 @@ function Navbar() {
         }`}
       >
         <li className="max-sm:pl-8">
-          <a href="/" className="hover:text-soft-red">
+          <a href="/News-homepage-main/" className="hover:text-soft-red">
             Home
           </a>
         </li>
         <li className="max-sm:pl-8">
-          <a href="/" className="hover:text-soft-red">
+          <a href="/News-homepage-main/" className="hover:text-soft-red">
             News
           </a>
         </li>
         <li className="max-sm:pl-8">
-          <a href="/" className="hover:text-soft-red">
+          <a href="/News-homepage-main/" className="hover:text-soft-red">
             Popular
           </a>
         </li>
         <li className="max-sm:pl-8">
-          <a href="/" className="hover:text-soft-red">
+          <a href="News-homepage-main/" className="hover:text-soft-red">
             Trending
           </a>
         </li>
         <li className="max-sm:pl-8">
-          <a href="/" className="hover:text-soft-red">
+          <a href="/News-homepage-main/" className="hover:text-soft-red">
             Categories
           </a>
         </li>
