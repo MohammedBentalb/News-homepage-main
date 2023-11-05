@@ -8,8 +8,6 @@ Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, you need a good understanding of HTML and CSS, and basic JavaScript.**
-
 ## The challenge
 
 Your challenge is to build out this news website homepage and get it looking as close to the design as possible.
@@ -22,5 +20,11 @@ Your users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ## coded by Mohammed Bentalb
-## Preview : 
+
+## Preview :
+
 - https://mohammedbentalb.github.io/News-homepage-main/
+
+## PageSpeed Insights
+
+- https://pagespeed.web.dev/analysis/https-mohammedbentalb-github-io-News-homepage-main/the6quwukw?form_factor=desktop
