@@ -31,6 +31,10 @@ body {
     max-width: 1440px;
   }
 
+  html {
+    @apply w-screen overflow-x-hidden;
+  }
+
   /* // navbar classes */
 
   .links-desk {
