@@ -36,7 +36,7 @@ function Navbar() {
           </a>
         </li>
         <li className="max-sm:pl-8">
-          <a href="News-homepage-main/" className="hover:text-soft-red">
+          <a href="/News-homepage-main/" className="hover:text-soft-red">
             Trending
           </a>
         </li>
